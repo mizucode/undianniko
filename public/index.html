@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Font Family -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- Stylesheet -->
+		<link href="css/style.css" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+			crossorigin="anonymous"
+		/>
+		<!-- Fav Icon -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<!-- Title -->
+		<title>Aekhulah</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<header
+			class="bg-transparent top-0 left-0 w-full flex items-center z-10 bg-slate-200"
+		>
+			<div class="container">
+				<div class="flex items-center justify-between relative">
+					<div class="px-4">
+						<a href="#home" class="font-bold text-2xl text-dsr block py-6"
+							>Aekhulah<span class="text-ylw">.com</span></a
+						>
+					</div>
+					<div class="flex items-center px-4">
+						<button
+							id="hamburger"
+							name="humberger"
+							type="button"
+							class="blok absolute right-4 lg:hidden"
+						>
+							<span
+								class="hamburger-line origin-top-left duration-300 ease-in-out"
+							></span>
+							<span class="hamburger-line duration-300 ease-in-out"></span>
+							<span
+								class="hamburger-line origin-bottom-left duration-300 ease-in-out"
+							></span>
+						</button>
+
+						<nav
+							id="nav-menu"
+							class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+						>
+							<ul class="block lg:flex">
+								<li class="group">
+									<a
+										href="#home"
+										class="text-base text-black py-2 mx-8 flex hover:text-dsr"
+										>Undian</a
+									>
+								</li>
+								<li class="group">
+									<a
+										href="#about"
+										class="text-base text-black py-2 mx-8 flex hover:text-dsr"
+										>Pemenang</a
+									>
+								</li>
+								<li class="group">
+									<a
+										href="#fitur"
+										class="text-base text-black py-2 mx-8 flex hover:text-dsr"
+										>Peserta</a
+									>
+								</li>
+								<li class="group">
+									<a
+										href="#fitur"
+										class="text-base text-black py-2 mx-8 flex hover:text-dsr"
+										>Pengaturan</a
+									>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- End Header -->
+
+		<!-- Hero Section -->
+
+		<section class="bg-blue-400">
+			<div class="container">
+				<div class="py-4">
+					<div class="w-40 lg:w-[24rem] lg:h-32 h-20 mx-auto overflow-hidden">
+						<img
+							src="../img/logo.png"
+							alt="logo.png"
+							class="w-full h-full object-cover"
+						/>
+					</div>
+
+					<h1
+						class="text-center pt-2 text-lg lg:text-6xl font-bold text-white shadow-sm"
+					>
+						UNDIAN BERHADIAH AEKHULAH.COM
+					</h1>
+				</div>
+			</div>
+		</section>
+
+		<!-- End Hero Section -->
+
+		<!-- Lottery Section -->
+
+		<section class="mt-4 mb-8">
+			<div class="container">
+				<div class="2xl:flex justify-between gap-4">
+					<main class="border-2 border-gray-950 px-2 rounded-md">
+						<label for="" class="mt-2">Reward :</label>
+						<select
+							id="countries"
+							class="bg-slate-100 mt-2 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+						>
+							<option selected>Toyota</option>
+							<option value="US">Civic</option>
+							<option value="CA">Honda</option>
+							<option value="FR">Vario</option>
+							<option value="DE">Poco</option>
+						</select>
+						<div class="mt-4 py-2 lg:w-[20rem] lg:h-[20rem]">
+							<img
+								src="../img/civic.png"
+								alt=""
+								class="w-full h-full object-contain"
+							/>
+						</div>
+					</main>
+					<main class="lg:w-full">
+						<div class="flex justify-center">
+							<div class="w-full mt-2 flex-col flex justify-center gap-4">
+								<p
+									class="text-center w-full lg:w-11/12 mx-auto lg:text-4xl bg-dark text-white font-bold text-2xl px-4 py-2 rounded-md"
+								>
+									0000000
+								</p>
+								<button
+									class="bg-red-600 w-1/2 mx-auto rounded-md text-white cursor-pointer hover:bg-red-700 px-4 py-2"
+								>
+									Mulai Acak
+								</button>
+							</div>
+						</div>
+
+						<div
+							class="text-center border-2 border-orange-400 rounded-lg py-2 mt-6 lg:w-11/12 mx-auto"
+						>
+							<main class="flex flex-col gap-2">
+								<h1>No transaksi</h1>
+								<h1>{___________}</h1>
+								<h1>NO HP</h1>
+								<h1>Alamat</h1>
+							</main>
+						</div>
+
+						<div class="flex justify-center">
+							<div
+								class="w-full lg:w-11/12 mx-auto mt-2 flex-col flex justify-center gap-2"
+							>
+								<button
+									class="bg-orange-400 rounded-md text-white cursor-pointer hover:bg-orange-600 px-4 py-2"
+								>
+									Simpan
+								</button>
+							</div>
+						</div>
+					</main>
+					<main class="mt-4">
+						<div class="border-2 border-orange-400 px-2 py-2 lg:w-[15rem]">
+							<h1>Peserta Terpilih :</h1>
+							<ul>
+								<li>1. Windah belum besar</li>
+							</ul>
+						</div>
+						<div class="w-full mt-2 flex-col flex justify-center gap-2">
+							<button
+								class="bg-orange-400 rounded-md text-white cursor-pointer hover:bg-orange-600 px-4 py-2"
+							>
+								Pengaturan Tambahan
+							</button>
+						</div>
+					</main>
+				</div>
+			</div>
+		</section>
+		<!-- End Lottery Section -->
+
+		<script src="../src/script.js"></script>
+	</body>
+</html>
